@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Gifos</title>
+    <link rel="stylesheet" href="./misgifos.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+    <script src="./misgifos.js"></script>
+</head>
+
+<body>
+
+    <div class="topLine"></div>
+    <header>
+        <nav id="desktopDiurno" class="menu-desktop">
+            <div class="logoDiurno">
+                <img src="../Home/imgPrincipal/logo-desktop.svg" alt="logo GIFOS">
+            </div>
+            <div class="nav-links">
+                <li id="modoSwitch"><a href="../Home/home.html">MODO NOCTURNO</a></li>
+                <li><a href="../Favoritos/favoritos.html">FAVORITOS</a></li>
+                <li><a href="#">MIS GIFOS</a></li>
+            </div>
+            <div class="botonDiurno">
+                <a href="../Crear Gifos/creargifos.html"><img src="../Home/imgPrincipal/button-crear-gifo.svg" alt="Botón crear GIFO"></a>
+            </div>
+        </nav>
+        <input type="checkbox" id="btn-menu">
+        <label for="btn-menu" class="icon-menu">
+            <span class="superior"></span>
+            <span class="media"></span>
+            <span class="baja"></span>
+        </label>
+        <nav id="mobileDiurno" class="menu-mobile">
+            <div class="logoDiurnoMobile">
+                <img src="../Home/imgPrincipal/logo-mobile.svg" alt="logo GIFOS">
+            </div>
+            <ul class="nav-links-mobile">
+                <li><a href="../Home/home.html">MODO NOCTURNO</a></li>
+                <div class="sub"></div>
+                <li><a href="../Favoritos/favoritos.html">FAVORITOS</a></li>
+                <div class="sub"></div>
+                <li><a href="#">MIS GIFOS</a></li>
+                <div class="sub"></div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="seccionGifos" class="misGifosContent">
+            <img src="../Home/imgPrincipal/icon-mis-gifos.svg" alt="cara GIFO" class="gifoImage">
+            <h2>Mis GIFOS</h2>
+            <div id="favoritosMisGifos" class="misGifosContainer">
+                <img src="../Home/imgPrincipal/icon-mis-gifos-sin-contenido.svg" alt="Sin contenido">
+                <h3>¡Animate a crear tu primer GIFO!</h3>
+            </div>
+            <a href="#" id="verMas" class="verMasButton">VER MAS</a>
+        </section>
+        <section class="section-second">
+            <h2 class="tituloPrincipal">Trending GIFOS</h2>
+            <h3 class="tituloSecundario">Mirá los últimos GIFOS de nuestra comunidad.</h3>
+            <h3 class="tituloSecundarioMobile">Mirá los últimos<br>GIFOS de nuestra comunidad.</h3>
+            <div class="sliderContainer">
+                <div class="leftSlider">
+                    <img src="../Home/imgPrincipal/button-slider-left.svg" alt="left button">
+                </div>
+                <div class="sliderImages" id="slider"></div>
+                <div class="rightSlider">
+                    <img src="../Home/imgPrincipal/Button-Slider-right.svg" alt="right button">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="social-networks">
+            <h5 class="title1">Compartir en:</h5>
+            <a href="https://www.facebook.com" class="facebook" target="_blank"><img
+                    src="../Home/imgPrincipal/icon_facebook.svg" alt="Facebook"></a>
+            <a href="https://www.twitter.com" class="twitter" target="_blank"><img
+                    src="../Home/imgPrincipal/icon-twitter.svg" alt="Twitter"></a>
+            <a href="https://www.instagram.com" class="instagram" target="_blank"><img
+                    src="../Home/imgPrincipal/icon_instagram.svg" alt="Instagram"></a>
+        </div>
+        <div class="copyrights">
+            <h5 class="title2">© GIFOS 2021 All Rights Reserved.</h5>
+        </div>
+    </footer>
+    <div class="bottomLine"></div>
+</body>
+
+</html>
